@@ -1,5 +1,5 @@
 ---
-title: "Anusha Sivakumar's Dashbord for DACSS 690V"
+title: "Anusha Sivakumar's Dashboard for DACSS 690V"
 bibliography: testVisual.bib
 output: 
   flexdashboard::flex_dashboard:
