@@ -1,0 +1,27 @@
+---
+title: "Anusha Sivakumar's Dashbord for DACSS 690V"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Intro {.sidebar}
+
+This dashboard indicates the distribution of schools by size of suburban locales in the states of Washington. The data is from the US Department of Education.
+
+### References
+<div id="refs"></div>
+
+## Column {data-width="450"}
+
+### Dot Plot Indicating the Distribution of Schools in Suburban Locales by Size
+
+```{r}
+readRDS("suburb_dot_plot.rds")
+```
+
