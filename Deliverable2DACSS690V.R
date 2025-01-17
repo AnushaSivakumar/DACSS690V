@@ -44,7 +44,7 @@ line_plot <- ggplot(covidWorld_continent, aes(x = date, y = mean_cases, color = 
   theme_minimal() +
   labs(
     title = "COVID-19 Mean Daily Cases by Continent",
-    subtitle = "Trends Over Time",
+    subtitle = "Trends Over Time Between Apr 2020 to Oct 2024",
     x = "Date",
     y = "Mean Daily Cases",
     color = "Continent",
