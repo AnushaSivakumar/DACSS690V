@@ -27,11 +27,19 @@ suburbFreq <- as.data.frame(prop.table(table(suburbEduwa$LocaleSub)))
 names(suburbFreq) <- c("LocaleSub", "Percent")
 
 # Horizontal dot plot
-ggplot(suburbFreq, aes(x = Percent, y = reorder(LocaleSub, Percent))) +
+dot_plot <- ggplot(suburbFreq, aes(x = Percent, y = reorder(LocaleSub, Percent))) +
   geom_point(size = 5, color = "orange") +
   labs(
-    title = "Proportion of LocaleSub in Suburb Schools",
+    title = "Distribution of Schools Classified by Suburb Size",
+    subtitle = "Detailed breakdown for schools in suburban areas",
+    caption = "Source: US Department of Education",
     x = "Percent",
     y = "Locale Subtype"
   ) +
   theme_minimal()
+
+#Let's look at the plot
+dot_plot
+
+#Save dot plot as rds file
+saveRDS(dot_plot, file = "suburb_dot_plot.rds")
