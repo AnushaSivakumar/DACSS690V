@@ -27,8 +27,4 @@ This dashboard is the work of Anusha Sivakumar for the Data Visualization class 
 readRDS("suburb_dot_plot.rds")
 ```
 
-### Line Plot Indicating the Distribution of Daily COVID Case Count by Continent between April 2020 and October 2024.
-
-```{r}
-readRDS("covidWorld_continent_line_plot.rds")
-```
+### Line Plot Indicating the Distribution of Daily COVID Case Count by C
