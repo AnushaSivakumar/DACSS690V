@@ -12,10 +12,12 @@ library(flexdashboard) # always
 
 ## Intro {.sidebar}
 
-This dashboard is the work of Anusha Sivakumar for the Data Visualization class DACSS 690V. 
+This dashboard is the work of Anusha Sivakumar for the Data Visualization class DACSS 690V.
 
 ### References
-<div id="refs"></div>
+
+::: {#refs}
+:::
 
 ## Column {data-width="450"}
 
@@ -24,6 +26,7 @@ This dashboard is the work of Anusha Sivakumar for the Data Visualization class 
 ```{r}
 readRDS("suburb_dot_plot.rds")
 ```
+
 ### Line Plot Indicating the Distribution of Daily COVID Case Count by Continent between April 2020 and October 2024.
 
 ```{r}
