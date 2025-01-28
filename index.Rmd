@@ -32,3 +32,10 @@ readRDS("suburb_dot_plot.rds")
 ```{r}
 readRDS("covidWorld_continent_line_plot.rds")
 ```
+
+### Choropleth Indicating Proportion of Contributions by Tender Type in the Boston Area by Zipcode in 2024
+
+```{r}
+readRDS("choropleth_plot.rds")
+```
+
